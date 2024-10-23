@@ -28,5 +28,5 @@ class TestFibonacci(unittest.TestCase):
         result = fibonacci(4)
         self.assertEqual(result, 3)
 
-if __name__ == '__main__':  # Use double underscores
+if __name__ == '__main__':  
     unittest.main()
